@@ -4,7 +4,9 @@ An NPM package for mySQL operation.
 There are total 11 methods are availible with this package.
 Add module:
 <pre>var pool = require('./db');</pre>
-<pre>var dbConfig = require('./dbConfig');</pre>
+<pre>npm install mysql-operations --save</pre>
+
+<pre>var dbConfig = require('mysql-operations');</pre>
 
 # 1. Insert Data:
 <p>Returns last inserted id</p>
