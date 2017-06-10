@@ -1,0 +1,21 @@
+{
+  "name": "mysql-operations",
+  "version": "1.0.0",
+  "description": "A simple and useful npm package for all basic opertaions of MySQL with node js. Require mysql package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "mysql-crud",
+    "mysql-crud-opertaions",
+    "mysql-operations"
+  ],
+  "author": "Sonu Bamniya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql": "^2.13.0"
+  }
+}
