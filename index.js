@@ -25,12 +25,13 @@ app.get('/', function(req, res) {
 
 /*Insert Data in Database*/
 app.get('/insert-data', function(req, res) {
+  var tableName = 'users';
     var insertData = {
         name: 'test user',
         email: 'abc@gmail.com',
         mobile: 8878220874
     };
-    dbConfig.insertData(pool, 'users', insertData, function(err, response) {
+    dbConfig.insertData(pool, tableName, insertData, function(err, response) {
         res.send(response);
     });
 });
